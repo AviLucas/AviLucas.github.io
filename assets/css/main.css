@@ -3847,14 +3847,7 @@ input, select, textarea {
   100% { transform: translateX(calc(-1 * var(--marquee-element-width) * var(--marquee-elements))); }
 }
 .marquee-content li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* text-align: center; */
-  flex-shrink: 0;
-  width: var(--marquee-element-width);
-  max-height: 100%;
-  font-size: calc(var(--marquee-height)*3/4); /* 5rem; */
+  height: 100%;
   white-space: nowrap;
 }
 
